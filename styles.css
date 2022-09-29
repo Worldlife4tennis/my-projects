@@ -1,0 +1,43 @@
+/* this sets all the h1 color to green and fontsize to large */
+h1{
+    color: green;
+    font-size: large;
+}
+
+h2{
+    color: yellowgreen;
+    font-size: medium;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link {
+    color: cadetblue;
+}
+
+a:visited{
+    color: blue ;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*this sets all the elements with box class*/ 
+.box{
+    padding: 30px;
+    width: auto;
+    height: 250px;
+    background-color: gray;
+    color: white;
+}
+
+/*this sets all the body font,padding,margin,and max width.*/
+body{
+    font: 1em/150% helvetica, Arial sans-serif;
+    padding: auto;
+    margin: 0 auto;
+    max-width: auto;
+}
